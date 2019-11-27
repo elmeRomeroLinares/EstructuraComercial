@@ -29,6 +29,7 @@ class LocalDetailFragment : Fragment() {
             0 -> setAdapter(repo.getCentrosComercialesGrandes(), recycler)
             1 -> setAdapter(repo.getCentrosComercialesPequenos(), recycler)
             2 -> setAdapter(repo.getCentrosComercialesRegionales(), recycler)
+            4 -> setAdapter(repo.getMercadosMunicipales(),recycler)
         }
 
     }

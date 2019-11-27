@@ -224,7 +224,7 @@ class Repository() {
         return ccpMutableList.toList()
     }
 
-    fun getCentrosComercialesRegionales(): List<Local>{
+    fun getCentrosComercialesRegionales(): List<Local> {
         val ccrMutableList = mutableListOf<Local>()
 
         ccrMutableList.add(
@@ -284,6 +284,34 @@ class Repository() {
                 "Mercado Municicpal: Los mercados están formados por puestos individuales que ofrecen productos de diversa índole con predominancia de los productos frescos: carne, frutas, verduras, pescado, etc. Se instalan en el centro de los barrios o localidades."
             )
         )
+
+        mmMutableList.add(
+            Local(
+                "https://fastly.4sqi.net/img/general/600x600/6415510_2PBZnZNR-QyCM_qXbPFcQXG3pvalxo6Ge7z9-K_mWpE.jpg",
+                "Mercado Dueñas",
+                "Santa Tecla, La Libertad.",
+                "-",
+                "-",
+                "1 Avenida Norte 2-5, Santa Tecla.",
+                "-",
+                "-"
+            )
+        )
+
+        mmMutableList.add(
+            Local(
+                "https://i1.wp.com/www.solonoticias.com/wp-content/uploads/LA-TIENDONA.jpg?fit=552%2C368&ssl=1",
+                "La Tiendona",
+                "San Salvador, San Salvador.",
+                "-",
+                "-",
+                "Frente al reloj de flores, San Salvador.",
+                "-",
+                "-"
+            )
+        )
+
+        return mmMutableList.toList()
     }
 
 

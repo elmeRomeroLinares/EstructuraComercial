@@ -87,6 +87,11 @@ class CategoryFragment : Fragment(), CategoryAdapter.OnCategoryListener {
 
                 }
                 MERCADO -> {
+                    when(name) {
+                        "Populares" -> {
+                            miSelccion = 4
+                        }
+                    }
 
                 }
             }
