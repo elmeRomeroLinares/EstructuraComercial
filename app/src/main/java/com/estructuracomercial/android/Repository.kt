@@ -314,5 +314,63 @@ class Repository() {
         return mmMutableList.toList()
     }
 
+    fun getAlmacenDeMultiplesSucursales(): List<Local> {
+        val amsMutableList = mutableListOf<Local>()
+
+        amsMutableList.add(
+            Local(
+                "https://i.imgur.com/qwfy64k.jpg",
+                "Sportline América",
+                "Santa Elena, La Libertad.",
+                "-",
+                "-",
+                "9° Calle Poniente N°3935 entre 75 y 77 Av. Norte, Colonia Escalón, San Salvador El Salvador.",
+                "8 sucursales",
+                "Almacén de sucursales múltiples: venta de marcas reconocidas del mundo del deporte como son Nike, Adidas, Under Armour, Speedo y de accesorios como FitBit."
+            )
+        )
+
+        amsMutableList.add(
+            Local(
+                "http://directorio.laprensagrafica.com/wp-content/uploads/2017/05/juguar.jpg",
+                "Jaguar Sportic",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "75 avenida norte 9a y calle poniente, no. 3906, colonia escalón.",
+                "19 sucursales",
+                "Almacén de sucursales múltiples: tienda especializada en la fabricación y distribución de accesorios y ropa deportiva de su propia marca y de marcas reconocidas a nivel mundial."
+            )
+        )
+
+        amsMutableList.add(
+            Local(
+                "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/74612450_3073521559342943_5015887598267138048_n.jpg?_nc_cat=106&_nc_ohc=B-l4eqqMuqUAQl3-Cw_qkxt6tw-2Tm5Eh9K-GickKeJK5k0UKiCONTSJQ&_nc_ht=scontent-mia3-1.xx&oh=754ad8c8bf15f331f5390f05d98668b1&oe=5E819EDA",
+                "Galaxia deportes",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "Metrocentro, Torre Roble, Local 68ª",
+                "4 y 25 diferentes marcas",
+                "Almacén de sucursales múltiples: Fabricante de uniformes deportivos de la mejor calidad, con experiencia de 40 años en el mercado nacional, capaz de diseño personalizado y con los mejores materiales importados."
+            )
+        )
+
+        amsMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2018/05/3-13-1.jpg",
+                "Prado El Salvador",
+                "San José, Costa Rica",
+                "-",
+                "-",
+                "Oficinas centrales San José Costa Rica",
+                "Metrocentro 4ta, 8va y 11va etapa",
+                "Almacén de sucursales múltiples: venta al detalle de muebles, electrodomésticos y tecnología para los segmentos medios y bajos en El Salvador."
+            )
+        )
+
+
+    }
+
 
 }
