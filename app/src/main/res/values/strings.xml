@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Estructura Comercial</string>
+
+    <string-array name="tipos_centros_comerciales_array">
+        <item>Centros Comerciales Grandes</item>
+        <item>Centros Comerciales Pequeños</item>
+        <item>Centros Comerciales Regional</item>
+        <item>Centros Comerciales Basado en Hipermercado</item>
+    </string-array>
+
+    <string-array name="tipos_almacenes_array">
+        <item>Múltiples Sucursales</item>
+        <item>Grandes</item>
+        <item>Populares</item>
+    </string-array>
+
+</resources>
