@@ -269,5 +269,22 @@ class Repository() {
         return ccrMutableList.toList()
     }
 
+    fun getMercadosMunicipales(): List<Local> {
+        val mmMutableList = mutableListOf<Local>()
+
+        mmMutableList.add(
+            Local(
+                "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/26114027_142546439864921_5460473400953807645_n.jpg?_nc_cat=104&_nc_ohc=npQEc5aNXycAQlVoTXdN-O5kA9cF5RWxiq82QiYA7kByVvOzbG9KuB0Lw&_nc_ht=scontent-mia3-1.xx&oh=fd507b3dfa62ce9d76f559ae758a364b&oe=5E489760",
+                "Mercado San Miguelito",
+                "San Salvador, San Salvador.",
+                "-",
+                "-",
+                "Av. España y 23 Calle Oriente, Barrio San Miguelito.",
+                "1,252",
+                "Mercado Municicpal: Los mercados están formados por puestos individuales que ofrecen productos de diversa índole con predominancia de los productos frescos: carne, frutas, verduras, pescado, etc. Se instalan en el centro de los barrios o localidades."
+            )
+        )
+    }
+
 
 }
