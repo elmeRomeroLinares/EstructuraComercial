@@ -12,7 +12,7 @@
         <item>Grandes</item>
         <item>Populares</item>
         <item>Supermercado</item>
-        <item>Ipermercado</item>
+        <item>Hipermercado</item>
     </string-array>
 
     <string-array name="tipos_mercados_array">

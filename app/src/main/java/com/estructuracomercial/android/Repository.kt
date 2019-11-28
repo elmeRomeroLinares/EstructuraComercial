@@ -586,5 +586,67 @@ class Repository() {
         return apMutableList.toList()
     }
 
+    fun getSuperMercados(): List<Local> {
+        val smMutableList = mutableListOf<Local>()
 
+        smMutableList.add(
+            Local(
+                "https://i.ytimg.com/vi/lz1DzF8-Ztk/maxresdefault.jpg",
+                "Super Selectos",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "San Salvador, El Salvador",
+                "100 sucursales",
+                "-"
+            )
+        )
+
+        smMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2017/01/26204948/1434796484570.jpg",
+                "Despensa de Don Juan",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "Centro Comercial Las Terrazas",
+                "20 sucursales",
+                "-"
+            )
+        )
+
+        smMutableList.add(
+            Local(
+                "https://static.elmundo.sv/wp-content/uploads/2018/10/Maxi-Despensa-Ahuachapan.jpg",
+                "Maxi Despensa",
+                "Lourdes Colon, La Libertad",
+                "-",
+                "-",
+                "Campos Verdes, Lourdes Colon",
+                "15 sucursales",
+                "-"
+            )
+        )
+
+        return smMutableList.toList()
+    }
+
+    fun getHiperMercado(): List<Local> {
+        val hmMutableList = mutableListOf<Local>()
+
+        hmMutableList.add(
+            Local(
+                "https://www.pymnts.com/wp-content/uploads/2016/08/Walmart-To-Buy-Jet.jpg",
+                "Wallmart",
+                "San Salvador, San Salvador",
+                "-",
+                "-",
+                "Entre Boulevard Orden de Malta, calle Izalco, Antiguo Cuscatlán , La Libertad.",
+                "5 sucursales",
+                "-"
+            )
+        )
+
+        return hmMutableList.toList()
+    }
 }

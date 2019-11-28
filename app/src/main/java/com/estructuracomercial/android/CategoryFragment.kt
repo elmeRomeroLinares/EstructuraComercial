@@ -42,7 +42,7 @@ class CategoryFragment : Fragment(), CategoryAdapter.OnCategoryListener {
                     data = resources.getStringArray(R.array.tipos_almacenes_array).asList()
                 }
                 MERCADO -> {
-                    data = resources.getStringArray(R.array.tipos_almacenes_array).asList()
+                    data = resources.getStringArray(R.array.tipos_mercados_array).asList()
                 }
             }
         }
@@ -90,6 +90,12 @@ class CategoryFragment : Fragment(), CategoryAdapter.OnCategoryListener {
                         }
                         "Populares" -> {
                             miSelccion = 5
+                        }
+                        "Supermercado" -> {
+                            miSelccion = 6
+                        }
+                        "Hipermercado" -> {
+                            miSelccion = 7
                         }
                     }
                 }

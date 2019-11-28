@@ -11,12 +11,16 @@ import androidx.swiperefreshlayout.widget.CircularProgressDrawable
 import com.estructuracomercial.android.databinding.ItemDetailBinding
 
 class DetailAdapter(
-    val data: List<Local>
+    val data: List<Local>,
+    val directionsListener: OnDetailClick
 ) : RecyclerView.Adapter<DetailAdapter.Holder>() {
-    class Holder(itemview: View): RecyclerView.ViewHolder(itemview) {
+    inner class Holder(itemview: View): RecyclerView.ViewHolder(itemview) {
         fun setData(local: Local){
             val binding : ItemDetailBinding? = DataBindingUtil.bind(itemView)
             binding?.local = local
+            binding?.imageView5?.setOnClickListener {
+                directionsListener.onDirectionsClick(local.direccion ?: "")
+            }
 
             val progressDrawable = CircularProgressDrawable(itemView.context)
             progressDrawable.strokeWidth = 5f
@@ -42,6 +46,10 @@ class DetailAdapter(
 
     override fun onBindViewHolder(holder: Holder, position: Int) {
         holder.setData(data[position])
+    }
+
+    interface OnDetailClick{
+        fun onDirectionsClick(address: String)
     }
 
 }
