@@ -5,13 +5,18 @@
         <item>Centros Comerciales Grandes</item>
         <item>Centros Comerciales Pequeños</item>
         <item>Centros Comerciales Regional</item>
-        <item>Centros Comerciales Basado en Hipermercado</item>
     </string-array>
 
     <string-array name="tipos_almacenes_array">
         <item>Múltiples Sucursales</item>
         <item>Grandes</item>
         <item>Populares</item>
+        <item>Supermercado</item>
+        <item>Ipermercado</item>
+    </string-array>
+
+    <string-array name="tipos_mercados_array">
+        <item>Mercados Municipales</item>
     </string-array>
 
 </resources>

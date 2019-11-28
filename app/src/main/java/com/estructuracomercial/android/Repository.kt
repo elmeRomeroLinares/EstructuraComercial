@@ -369,7 +369,221 @@ class Repository() {
             )
         )
 
+        amsMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2019/08/Curacao-03.jpg",
+                "La Curacao",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "Alameda Manuel Enrique Araujo, edificio Unicomer.",
+                "37 sucursales",
+                "Almacén de sucursales múltiples: venta al detalle de muebles, electrodomésticos y tecnología, motocicletas y servicios financieros."
+            )
+        )
 
+        amsMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2018/06/Prisma-Moda.jpg",
+                "Prima Moda",
+                "Santa Tecla, La Libertad",
+                "-",
+                "-",
+                "Centro Comercial Plaza Merliot, tercer nivel, Locales #303 y # 304.",
+                "11 sucursales",
+                "Almacén de sucursales múltiples: Prisma Moda es una marca de Unicomer El Salvador, opera varias cadenas de marcas minoristas, se especializa en audio, video, electrodomésticos."
+            )
+        )
+
+        amsMutableList.add(
+            Local(
+                "http://grupounicomer.com/wp-content/uploads/2019/01/banner_tropigas.jpg",
+                "Almacenes Tropigas",
+                "San Salvador, El Salvador",
+                "-",
+                "-",
+                "Alameda Manuel Enrique Araujo, edificio Unicomer.",
+                "2 sucursales",
+                "Almacén de sucursales múltiples: Tropigas es una marca de Unicomer El Salvador, opera varias cadenas de marcas minoristas, se especializa en audio, video, electrodomésticos."
+            )
+        )
+
+        return amsMutableList.toList()
+    }
+
+    fun getAlmacenesGrandes(): List<Local> {
+        val agMutableList = mutableListOf<Local>()
+
+        agMutableList.add(
+            Local(
+                "https://medias.fashionnetwork.com/image/upload/v1/medias/c09870b72830ad26a21164d757f5fb322021865.jpg",
+                "Simán",
+                "Antiguo Cuscatlán, La Libertad.",
+                "-",
+                "2",
+                "C. Panamericana Calle Chiltiupan, Centro Comercial La Gran Vía Local #1.",
+                "7 sucursales",
+                "Grandes Almacenes: Es un establecimiento de gran superficie que ofrece al público toda clase de mercancías, por lo que se encuentra dividido en 17 departamentos diferentes."
+            )
+        )
+
+        agMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2018/02/sears-arre.jpg",
+                "Sears",
+                "Antiguo Cuscatlán, La Libertad.",
+                "-",
+                "2",
+                "Centro Comercial Multiplaza, Carretera Panamericana.",
+                "1 sucursales",
+                "Grandes Almacenes: Es un establecimiento de gran superficie que ofrece al público toda clase de mercancías, por lo que se encuentra dividido en 5 departamentos diferentes."
+            )
+        )
+
+        agMutableList.add(
+            Local(
+                "https://www.vidri.com.sv/themes/default/img/f0ee3727cf8070fcd380376008e74aa9.jpg",
+                "Almacenes Vidrí",
+                "Antiguo Cuscatlán, La Libertad.",
+                "-",
+                "-",
+                "Boulevard Merliot y carretera al puerto de la libertad.",
+                "16 sucursales",
+                "Grandes Almacenes: Es un establecimiento de gran superficie que ofrece al público toda clase de mercancías, por lo que se encuentra dividido en 9 departamentos diferentes."
+            )
+        )
+
+        agMutableList.add(
+            Local(
+                "https://www.tendencias.mx/wp-content/uploads/2018/10/sanborns.jpg",
+                "Sanborns",
+                "Antiguo Cuscatlán, La Libertad.",
+                "-",
+                "-",
+                "Centro Comercial Multiplaza, Carretera Panamericana.",
+                "2 sucursales",
+                "Grandes Almacenes: Es un establecimiento de gran superficie que ofrece al público toda clase de mercancías, por lo que se encuentra dividido en 14 departamentos diferentes."
+            )
+        )
+
+        agMutableList.add(
+            Local(
+                "https://si.wsj.net/public/resources/images/BN-VK764_office_HD_20171004131856.jpg",
+                "Office Depot",
+                "San Salvador, San Salvador.",
+                "-",
+                "-",
+                "Paseo General Escalón entre 83 y 85 av. Sur.",
+                "3 sucursales",
+                "Grandes Almacenes: Es un establecimiento de gran superficie que ofrece al público toda clase de mercancías, por lo que se encuentra dividido en 8 departamentos diferentes."
+            )
+        )
+
+        return agMutableList.toList()
+    }
+
+    fun getAlmacenesPopulares(): List<Local> {
+        val apMutableList = mutableListOf<Local>()
+
+        apMutableList.add(
+            Local(
+                "http://cdn3.clasificados.com/sv/pictures/photos/000/045/008/original_Logo.jpg",
+                "Almacenes BOMBA",
+                "Santa Tecla, La Libertad.",
+                "-",
+                "-",
+                "2°C. Ote. No. 1-6 frente a mercado de Santa Tecla.",
+                "19 sucursales, 20 departamentos, 6 marcas propias",
+                "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Almacenes bomba: Los servicios y productos que ofrecen están orientados a satisfacer las necesidades de sus clientes con precios bajos, los productos que predominan son: Ropa para dama, caballero, niños, bebes y productos para el hogar.\n"
+            )
+        )
+
+        apMutableList.add(
+            Local(
+                "https://cdn-pro.elsalvador.com/wp-content/uploads/2017/01/27015241/1434881416961.jpg",
+                "Variedades Génesis",
+                "Casa matriz, San Salvador",
+                "-",
+                "-",
+                "6a. Calle oriente #124, San salvador.",
+                "11 sucursales",
+                "Productos: Ropa, calzado, juguetes, cristalería, artículos del hogar, artículos para bebé, herramientas y más.\n" +
+                        "\n" +
+                        "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Variedades Génesis: Empresa #1 en la distribución y comercialización de artículos importados.\n"
+            )
+        )
+
+        apMutableList.add(
+            Local(
+                "https://yt3.ggpht.com/a-/AN66SAwx6aw1Z8Mw13BG9ZvSNBOc5XQdgkGD62IVwg=s900-mo-c-c0xffffffff-rj-k-no",
+                "Mega boutique",
+                "San Salvador, El Salvador.",
+                "-",
+                "-",
+                "Distrito Comercial Central, 3ra Calle Poniente #938, entre 15 y, 17 Avenida Nte, San Salvador.",
+                "1 sucursal",
+                "Productos: Ropa, calzado, accesorios, bisutería, carteras, zapatos y más.\n" +
+                        "\n" +
+                        "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Mega boutique: Empresa con una historia de más de 20 años que ha marcado la pauta en el país, para la comercialización de artículos de primera y segunda mano de alta calidad, que tiene como objetivo principal el brindar la mejor experiencia de compras online con artículos de primera y segunda mano, con precios accesibles a través de su página web.\n"
+            )
+        )
+
+        apMutableList.add(
+            Local(
+                "https://lh3.googleusercontent.com/p/AF1QipO_uBchUhxEJO6orPcXIOEeXNFg7HrkkcCHGHE-=s1600-w400",
+                "Premium center",
+                "El salvador.",
+                "-",
+                "-",
+                "Cd. Merliot, frente a centro comercial el trébol.",
+                "27 sucursales",
+                "Productos: Ropa para toda la familia, accesorios, artículos para el hogar, juguetes, muebles y más.\n" +
+                        "\n" +
+                        "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Premium center: En Premium Center El Salvador ofrecen productos desde ropa para toda la familia, accesorios, artículos para el hogar, juguetes hasta muebles; todo bajo la garantía 100% americana. Brindan una experiencia de compra con promociones todos los días para que gastes menos y compres más SIEMPRE.\n"
+            )
+        )
+
+        apMutableList.add(
+            Local(
+                "https://metrocentro-samantha.s3.amazonaws.com/uploads/post/logo_v2/5573/Logo.jpg",
+                "Almacenes Santa Lucía",
+                "Santa Tecla, La Libertad.",
+                "-",
+                "-",
+                "2°C. Ote. No. 1-6 frente a mercado de Santa Tecla.",
+                "19 sucursales",
+                "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Almacenes Santa Lucía: Se dedica a la venta de ropa, calzado y accesorios para toda la familia, ofreciendo los mejores precios y estilos en el mercado durante 27 años.\n"
+            )
+        )
+
+        apMutableList.add(
+            Local(
+                "https://i.ytimg.com/vi/CAwUdzL8yxM/maxresdefault.jpg",
+                "Almacenes Shopping center",
+                "San Salvador, El Salvador.",
+                "-",
+                "-",
+                "11 Avenida Sur 4 calle poniente No. 238, San Salvador.",
+                "8 sucursales",
+                "Productos: Ropa, zapatos, carteras, Juguetes, Peluches, joyería, accesorios y más.\n" +
+                        "\n" +
+                        "Almacén popular: Es una tienda por departamento de menor tamaño que el gran almacén que está especializada en línea de productos de calidad inferior y venden a precios bajos.\n" +
+                        "\n" +
+                        "Shopping Center:  El almacén número uno de ropa americana en El Salvador, Siempre se ha interesado en cubrir los gustos más exigentes de sus clientes ofreciéndoles lo mejor, en cuanto a calidad, marcas y una amplia cantidad y variedad de ropa, zapatos, carteras, juguetes, peluches, joyería, accesorios y más.\n"
+            )
+        )
+
+        return apMutableList.toList()
     }
 
 

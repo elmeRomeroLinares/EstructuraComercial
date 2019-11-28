@@ -78,18 +78,25 @@ class CategoryFragment : Fragment(), CategoryAdapter.OnCategoryListener {
                         "Centros Comerciales Regional" -> {
                             miSelccion = 2
                         }
-                        "Centros Comerciales Basado en Hipermercado" -> {
-                            miSelccion = 3
-                        }
                     }
                 }
                 ALMACEN -> {
-
+                    when(name) {
+                        "Múltiples Sucursales" -> {
+                            miSelccion = 3
+                        }
+                        "Grandes" -> {
+                            miSelccion = 4
+                        }
+                        "Populares" -> {
+                            miSelccion = 5
+                        }
+                    }
                 }
                 MERCADO -> {
                     when(name) {
-                        "Populares" -> {
-                            miSelccion = 4
+                        "Mercados Municipales" -> {
+                            miSelccion = 9
                         }
                     }
 
