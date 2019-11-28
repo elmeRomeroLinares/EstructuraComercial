@@ -14,12 +14,13 @@ class DetailAdapter(
     val data: List<Local>,
     val directionsListener: OnDetailClick
 ) : RecyclerView.Adapter<DetailAdapter.Holder>() {
+
     inner class Holder(itemview: View): RecyclerView.ViewHolder(itemview) {
         fun setData(local: Local){
             val binding : ItemDetailBinding? = DataBindingUtil.bind(itemView)
             binding?.local = local
             binding?.imageView5?.setOnClickListener {
-                directionsListener.onDirectionsClick(local.direccion ?: "")
+                directionsListener.onDirectionsClick(local.nombre ?: "")
             }
 
             val progressDrawable = CircularProgressDrawable(itemView.context)
@@ -49,7 +50,7 @@ class DetailAdapter(
     }
 
     interface OnDetailClick{
-        fun onDirectionsClick(address: String)
+        fun onDirectionsClick(comercio: String)
     }
 
 }

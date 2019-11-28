@@ -48,8 +48,8 @@ class LocalDetailFragment : Fragment(), DetailAdapter.OnDetailClick {
         recycler.adapter = adapter
     }
 
-    override fun onDirectionsClick(address: String) {
-        val map = "http://maps.google.co.in/maps?q=$address"
+    override fun onDirectionsClick(comercio: String) {
+        val map = "http://maps.google.co.in/maps?q=$comercio"
         val intent = Intent(Intent.ACTION_VIEW, Uri.parse(map))
         startActivity(intent)
     }
