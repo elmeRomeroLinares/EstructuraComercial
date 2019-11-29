@@ -107,7 +107,7 @@ class Repository() {
                 "3 (1 Subterráneos).",
                 "Kilómetro 12, Carretera al Puerto de La Libertad",
                 "241",
-                "Centro Comercial Especializado: Están presentes aquellos comercios donde se ofrecer cierta actividad específica. En el centro comercial El Paseo predominan negocios de restaurantes y de conveniencia."
+                "Centro Comercial Integrado: Están presentes medianas superficies especializadas y grandes superficies juntos con pequeños comercios, además de ofrecer actividades lúdicas y de ocio."
             )
         )
 
@@ -293,6 +293,19 @@ class Repository() {
                 "-",
                 "-",
                 "1 Avenida Norte 2-5, Santa Tecla.",
+                "-",
+                "-"
+            )
+        )
+
+        mmMutableList.add(
+            Local(
+                "https://elsalvadorgram.com/wp-content/uploads/2017/10/mercado-cuscatl%C3%A1n.jpg",
+                "Mercado Cuscatlán",
+                "San Salvador, San Salvador.",
+                "-",
+                "-",
+                "Calle Gerardo Barrios 25, San Salvador.",
                 "-",
                 "-"
             )
